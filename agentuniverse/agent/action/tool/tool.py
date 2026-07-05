@@ -11,7 +11,7 @@ import json
 from typing import List, Optional, get_type_hints, Any
 
 from pydantic import BaseModel
-from langchain.tools import Tool as LangchainTool
+from langchain_core.tools import Tool as LangchainTool
 
 from agentuniverse.agent.action.tool.enum import ToolTypeEnum
 from agentuniverse.base.annotation.trace import trace_tool
